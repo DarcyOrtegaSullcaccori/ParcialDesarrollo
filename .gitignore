@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+htmlcov/
+test.db
+
+# Node
+node_modules/
+frontend/build/
+.env.local
+
+# Docker
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Uploads (archivos subidos por usuarios)
+backend/uploads/

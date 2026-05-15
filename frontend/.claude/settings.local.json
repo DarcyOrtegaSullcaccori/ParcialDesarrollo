@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pg_isready -h localhost -p 5432)",
+      "Bash(psql -h localhost -U postgres -c \"\\\\l\")",
+      "Bash(psql -h localhost -U postgres -l)",
+      "Read(//Users/darcyortegasullcaccori/Documents/ParcialDesarrollo/backend/**)",
+      "Bash(PGPASSWORD=73863119 psql -h localhost -U postgres -l)",
+      "Bash(PGPASSWORD=73863119 psql -h localhost -U postgres -d incidencias_db -c \"\\\\dt\")",
+      "Bash(curl -s -X POST http://localhost:8000/api/v1/auth/register -H 'Content-Type: application/json' -d '{\"nombre\":\"Test\",\"apellido\":\"User\",\"email\":\"test123@test.com\",\"password\":\"12345678\",\"telefono\":\"999000000\"}')",
+      "Bash(python3 -c ' *)",
+      "Bash(pip install *)",
+      "Bash(curl -s -X POST http://localhost:8000/api/v1/auth/register -H 'Content-Type: application/json' -d '{\"nombre\":\"Test\",\"apellido\":\"User\",\"email\":\"testfinal@test.com\",\"password\":\"12345678\",\"telefono\":\"999000000\"}')",
+      "Bash(kill 18882)",
+      "Bash(python3 -m uvicorn app.main:app --reload --port 8000)",
+      "Bash(curl -s -X POST http://localhost:8000/api/v1/auth/register -H 'Content-Type: application/json' -d '{\"nombre\":\"Test\",\"apellido\":\"User\",\"email\":\"testfinal2@test.com\",\"password\":\"12345678\",\"telefono\":\"999000000\"}')",
+      "Bash(curl -s -X POST http://localhost:8000/api/v1/auth/register -H 'Content-Type: application/json' -d '{\"nombre\":\"Test\",\"apellido\":\"User\",\"email\":\"testfinal3@test.com\",\"password\":\"12345678\",\"telefono\":\"999000000\"}')"
+    ]
+  }
+}
